@@ -1,0 +1,23 @@
+body {
+	padding: 15px;
+}
+
+body>p>a,
+body>ul>li>a {
+	border-radius: 8px;
+	padding: 8px 16px;
+	background-color: #4e75ff;
+	color: #fff;
+	font-weight: 500;
+	transition: background-color 0.3s ease 0s;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+body>p>a:hover,
+body>p>a:focus,
+body>ul>li>a:hover,
+body>ul>li>a:focus {
+	background-color: #6c8cff;
+	outline: none;
+}
