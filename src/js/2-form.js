@@ -43,8 +43,8 @@ feedbackForm.addEventListener('submit', event => {
 
 	console.log(formData);
 
-	form.reset();
+	localStorage.removeItem(localStorageKey);
 	formData.email = "";
 	formData.message = "";
-	localStorage.removeItem(localStorageKey);
+	form.reset();
 })
