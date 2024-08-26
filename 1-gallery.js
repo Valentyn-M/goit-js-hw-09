@@ -11,4 +11,4 @@ import"./assets/styles-CyRY8z4z.js";import{S as t}from"./assets/vendor-B-WyX8ve.
 			</a>
 		</li>
 	`;i+=p});e.insertAdjacentHTML("beforeend",i);new t(".gallery-link",{captions:!0,captionSelector:".gallery-image",captionType:"attr",captionsData:"alt",captionPosition:"bottom",captionDelay:250});
-//# sourceMappingURL=1-gallary.js.map
+//# sourceMappingURL=1-gallery.js.map
